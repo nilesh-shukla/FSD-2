@@ -69,15 +69,84 @@
 // someFunction("hi", "there", "how you doing");
 
 
-function addtwoNumbers(x,y)
-{
-    return x+y;
-}
-let resultArr = [];
-for(let i=0; i<10; i++)
-{
-    let result = addtwoNumbers(i, 2*i);
-    resultArr.push(result);
-}
+// function addtwoNumbers(x,y)
+// {
+//     return x+y;
+// }
+// let resultArr = [];
+// for(let i=0; i<10; i++)
+// {
+//     let result = addtwoNumbers(i, 2*i);
+//     resultArr.push(result);
+// }
 
-console.log(resultArr);
+// console.log(resultArr);
+
+// let result = addTwoNumbers(4, 5)
+// {
+//     console.log(result);
+// }
+
+// let addTwoNumber = (x, y) => x+y;
+// let result = addTwoNumber(12, 15);
+// console.log(result);
+
+
+// let addTwoNumber = (x, y) => 
+//     {
+//         console.log("Adding...");
+//         return x+y;
+//     }
+//     console.log(addTwoNumber);
+
+// // ** SCOPE
+// function testAvailibility(x)
+// {
+//     console.log("Available here:", x);
+// }
+
+// testAvailibility("Hi");
+// console.log("Not Available here:", x);
+
+// function testAvailibility()
+// {
+//     let y = "local variable";
+//     console.log("Available Here:", y);
+// }
+// testAvailibility();
+// console.log("Not Available:", y);
+
+// function doingStuff(){
+//     if(true){
+//         console.log(x);
+//         let x= "local"
+//     }
+// }
+
+// function doingStuff(){
+//     if(true){
+//         console.log(x);
+//         var x= "local";
+//     }
+// }
+// doingStuff();
+
+
+// function doingStuff(){
+//     if(true){
+//         const x= "local";
+//     }
+//     console.log(x);
+// }
+// doingStuff();
+
+// //** GLOBAL VARIABLE */
+// let globalvar = "Accessible EveryWhere";
+// console.log("Outside Function: ", globalvar);
+
+// function creatingNerSpace(x){
+//     console.log("Access to global vars inside function", globalvar);
+// }
+// creatingNerSpace("Some parameter");
+// console.log("Still Available: ", globalvar);
+
