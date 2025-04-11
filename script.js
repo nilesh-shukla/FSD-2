@@ -150,3 +150,109 @@
 // creatingNerSpace("Some parameter");
 // console.log("Still Available: ", globalvar);
 
+// //IIFE
+// (function ()
+// {
+//     console.log("Hello");
+// })();
+
+// (()=>{
+//     console.log("Hello there");
+// })();
+
+//Recursive Function : Works on the application of Stack
+// function getRecursive(nr){
+//     console.log(nr);
+//     getRecursive(--nr);
+// }
+// getRecursive(3);
+
+// n-1 does not modify the value whereas --n means n=n-1 showing modification
+
+// function getRecursive(nr){
+//         if(nr>0) {getRecursive(--nr);}
+//         console.log(nr);
+//     }
+// getRecursive(3);
+
+// function logrecursive(nr)
+// {
+//     console.log("Started Function : ", nr);
+//     if(nr > 0){
+//         logrecursive(nr - 1);
+//     }
+//     else{
+//         console.log("Done with Function");
+//     }
+//     console.log("Ended Function:", nr);
+// }
+
+// logrecursive(3);
+
+// Nested Function 
+// function outerFunction (nr){
+//     console.log("Outer Function");
+//     InnerFunciton(nr);
+//     function InnerFunciton(x){
+//         console.log(x+7);
+//         console.log("I can access outer variable:" , nr);
+//     }
+// }
+// outerFunction(2);
+
+// Function CallBacks
+// function doFlexibleStuff(executeStuff)
+// {
+//     executeStuff();
+//     console.log("Inside doFlexibleStuffFunction");
+// }
+
+// setInterval Function :
+// let youGotThis = function () {
+//     console.log("You are doing well");
+// };
+
+// setTimeout(youGotThis, 100000);
+
+// let val = 10;
+// function tester(val)
+// {
+//     val += 10;
+//     if(val <100)
+//     {
+//         return tester(val);
+//     }
+//     return val;
+// }
+// tester(val);
+// console.log(val); Output : 10
+
+// Mixing IIFE and variable assigned function
+// let testFunction = function(){
+// console.log("Hello");
+// }();  Output : Hello
+
+// (function (){
+//     console.log("Welcome");
+// })();
+// (function (){
+//     let firstName = "Laurence";
+// })();
+// let result = (function (){
+//     let firstName = "Laurence";
+//     return firstName;
+// })();
+// console.log(result);
+// (function (firstName){
+//     console.log("My Name is: " + firstName);
+// })("Laurence");
+
+
+// let test = (num) => num + 5;
+// console.log(test(14));
+
+// var addFive1 = function addFive1(num) {
+//     return num + 2;
+// };
+// let  addFive2 = (num) => num+2;
+// console.log(addFive1(14));
