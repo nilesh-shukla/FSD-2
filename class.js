@@ -133,20 +133,24 @@
 //   motor.accelerate(50);
 //   motor.move();
 
-//**PROTOTYPE 
-class Person{
-    constructor(firstname, lastname){
-        this.firstname =firstname;
-        this.lastname = lastname;
-    }
-    greet(){
-        console.log("Hi There");
-    }    
-}
-Person.prototype.introduce =function(){
-        console.log("Hi, there I'm ", this.firstname);
-}
-Person.prototype.faviorateColor="green";
-let p = new Person("Maria","Saga");
-console.log(p.faviorateColor);
-p.introduce();
+// **PROTOTYPE 
+// class Person{
+//     constructor(firstname, lastname){
+//         this.firstname =firstname;
+//         this.lastname = lastname;
+//     }
+//     greet(){
+//         console.log("Hi There");
+//     }    
+// }
+// Person.prototype.introduce =function(){
+//         console.log("Hi, there I'm ", this.firstname);
+// }
+// Person.prototype.faviorateColor="green";
+// let p = new Person("Maria","Saga");
+// console.log(p.faviorateColor);
+// p.introduce();
+
+
+
+
