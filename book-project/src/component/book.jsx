@@ -1,6 +1,6 @@
 import React from 'react'
 // import css
-import './Book.css'
+import '../book.css'
 const Book = () => {
   return (
     <div id="book">

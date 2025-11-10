@@ -1,5 +1,5 @@
 import React from 'react'
-import Book from './MyComponents/Book.jsx';
+import Book from './component/book.jsx';
 
 const App = () => {
   return (
